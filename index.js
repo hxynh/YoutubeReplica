@@ -11,7 +11,7 @@ window.addEventListener("load", (event) => {
     
 });
 
-var searchForm = document.querySelector('#searchForm');
+var searchForm = document.querySelector('#search-form');
 searchForm.addEventListener('submit', function(e){
     e.preventDefault();
     var xhttp = new XMLHttpRequest();
@@ -21,7 +21,7 @@ searchForm.addEventListener('submit', function(e){
             displayContents(data);
         }
     };
-    var searchValue = document.querySelector('.searchText').value;
+    var searchValue = document.querySelector('.search-text').value;
     console.log(searchValue);
     xhttp.open("GET", `https://www.googleapis.com/youtube/v3/search?part=snippet&q=${searchValue}&maxResults=10&key=AIzaSyCyEfvXzth1RqEeHpi-msaBAkGIKVgmABI`, true);
     xhttp.send();

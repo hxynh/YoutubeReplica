@@ -11,7 +11,7 @@ body {
     width: 100%;
     padding: 5px;
 }
-#searchForm {
+#search-form {
     width: 60%;
     height: 80%;
     display: flex;
@@ -51,13 +51,13 @@ body {
     border-radius: 100%;
 }
 
-.youtubeHome {
+.youtube-home {
     display: flex;
     justify-content: space-between;
     padding: 10px;
 }
 
-.youtubeHome > h4 {
+.youtube-home > h4 {
     font-weight: 450;
     font-size: 25px;
     margin: 0px;
@@ -66,7 +66,7 @@ body {
     font-family:  Arial, sans-serif;
 }
 
-.searchText {
+.search-text {
     width: 100%;
     border-radius: 50px 0px 0px 50px;
     border: 1px solid grey;
@@ -74,20 +74,20 @@ body {
     font-size: 1.1rem;
 }
 
-.searchText::placeholder {
+.search-text::placeholder {
     font-size: 1rem;
     padding: 5px;
     opacity: 0.5;
     font-weight: 500;
 }
 
-.searchText:focus{
+.search-text:focus{
     box-shadow: 0 0 3px 0 #1183d6;
     border-color:  #065791;
     outline: none;
 }
 
-.searchBtn {
+.search-btn {
     width: 20%;
     border: 1px solid grey;
     border-left: none;
@@ -95,7 +95,7 @@ body {
     background: transparent url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' class='bi bi-search' viewBox='0 0 16 16'%3E%3Cpath d='M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z'%3E%3C/path%3E%3C/svg%3E") no-repeat center;
 }
 
-.searchSpeech {
+.search-speech {
     background-color: rgb(243, 237, 237);
     font-size: 18px;
     border-radius: 100%;
@@ -103,7 +103,7 @@ body {
     padding: 10px 15px;
 }
 
-.createVidBtn, .notificationBtn, .profile {
+.create-vid-btn, .notification-btn, .profile {
     font-size: 16px;
     font-family: Arial, Helvetica, sans-serif;
     margin-left: 8px;
@@ -118,7 +118,7 @@ body {
     flex-direction: column;
 }
 
-.navBtn {
+.nav-btn {
     text-decoration: none;
     color: rgb(49, 47, 47);
     font-family: Arial, Helvetica, sans-serif;
@@ -129,15 +129,15 @@ body {
     padding-left: 30px;
 }
 
-.menu, .searchSpeech, .youtubeHome, .searchBtn, .searchSpeech, .createVidBtn, .notificationBtn, .profile, .tag{
+.menu, .search-speech, .youtube-home, .search-btn, .search-speech, .create-vid-btn, .notification-btn, .profile, .tag{
     cursor: pointer;
 }
 
-.menu:hover, .searchBtn:hover, .searchSpeech:hover, .searchSpeech:hover, .createVidBtn:hover, .notificationBtn:hover, .profile:hover, .tag:hover {
+.menu:hover, .search-btn:hover, .search-speech:hover, .search-speech:hover, .create-vid-btn:hover, .notification-btn:hover, .profile:hover, .tag:hover {
     background-color: rgb(238, 222, 222);
 }
 
-.navBtn:hover {
+.nav-btn:hover {
     background-color: rgb(238, 222, 222);
     font-weight: 600;
 }
